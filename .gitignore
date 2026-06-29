@@ -1,0 +1,22 @@
+# Virtual Environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Data
+data/raw/
+data/processed/
+
+# Models
+models/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+
+# OS
+.DS_Store
