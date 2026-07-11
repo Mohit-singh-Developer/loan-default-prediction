@@ -1,22 +1,27 @@
 # Virtual Environment
 .venv/
 
-# Python
+# Python Cache
 __pycache__/
 *.pyc
-
-# Data
-data/raw/
-data/processed/
-
-# Models
-models/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Environment
-.env
+# VS Code
+.vscode/
 
-# OS
+# OS Files
 .DS_Store
+Thumbs.db
+
+# Model Files (Optional)
+*.joblib
+*.pkl
+!models/deployment_model.pkl
+
+# Streamlit
+.streamlit/secrets.toml
+
+data/raw/
+*.csv
