@@ -18,7 +18,7 @@ This application predicts the probability of loan default using an XGBoost machi
 st.divider()
 
 st.caption(
-    "Built by Mohit Singh | IIITDM Jabalpur | XGBoost + Streamlit"
+    "Built by Mohit Singh |  XGBoost + Streamlit"
 )
 # --------------------------------------------------
 # Page Configuration
